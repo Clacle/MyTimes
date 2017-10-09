@@ -46,8 +46,44 @@ div {
 
 .main {
   display: flex;
+  justify-content: space-between;
 }
 
 .stories {
   display:inline-flex;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white
+}
+
+.story-main.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white
+}
+
+.story-main.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+}
+
+.fall.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png)
+}
+
+.camera.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png)
+}
+
+.cat.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
