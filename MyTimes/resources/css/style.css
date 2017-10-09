@@ -1,3 +1,7 @@
+body {
+  display: block;
+  margin: 0;
+}
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -12,7 +16,7 @@ header nav {
 }
 
 div {
-  border: 1px solid black;
+  display: block;
 }
 
 .logo {
@@ -32,6 +36,12 @@ div {
   margin-right: 12px;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
 .column.large {
   width: 630px;
 }
@@ -44,20 +54,30 @@ div {
   width: 240px;
 }
 
-.main {
+.content {
   display: flex;
-  justify-content: space-between;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .stories {
-  display:inline-flex;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: white
+  color: white;
+  text-align: center;
 }
 
 .story-main.image-content {
