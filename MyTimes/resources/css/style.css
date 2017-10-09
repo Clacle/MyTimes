@@ -4,10 +4,15 @@ header {
   font-weight: bold;
   display: flex;
   align-items: center;
+  padding-bottom: 12px;
 }
 
 header nav {
   padding-right: 40px;
+}
+
+div {
+  border: 1px solid black;
 }
 
 .logo {
@@ -25,4 +30,25 @@ header nav {
   width: 70px;
   height: 60px;
   margin-right: 12px;
+}
+
+.content {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.maincontent {
+  display: flex;
+
 }
