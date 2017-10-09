@@ -32,10 +32,6 @@ div {
   margin-right: 12px;
 }
 
-.content {
-  display: flex;
-}
-
 .column.large {
   width: 630px;
 }
@@ -48,7 +44,10 @@ div {
   width: 240px;
 }
 
-.maincontent {
+.main {
   display: flex;
+}
 
+.stories {
+  display:inline-flex;
 }
