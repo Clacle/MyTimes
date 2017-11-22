@@ -1,0 +1,145 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: #fff5ee;
+  background-color: black;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+a {
+  color: seashell;
+}
+
+div {
+  display: block;
+}
+
+h2, h3, h4 {
+  display: block;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
+  display: block;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.maincontent {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+
+#featuredtea {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  display: block;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px 10px 15px 10px;
+}
+
+.tea span {
+  padding: 5px;
+  font-weight: bold;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  padding-top: 70px;
+}
+
+#locations .flexcontainer {
+  margin: auto;
+  width: 1100px;
+}
+
+ .flexcontainer .locations {
+   padding-top: 5px;
+ }
+
+.location {
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.address {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
